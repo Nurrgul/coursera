@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body, html{
+    font-family: "Bebas Neue";
+color: #222;
+}
+body{
+    background-image: url(img/kino.png);
+ }
+
+.employee-form {
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    background-color: #cce8e3;
+    
+}
+
+.employees-table {
+    border-style: solid;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    background-color: white;
+
+}
+header{
+    background-color: #0de0bd;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+h1{
+text-align: center;
+color: black;
+}
+
+table{
+    border-collapse: collapse;
+
+
+}
+table.list{
+    width:100%;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #8bfce8;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #335c7d;
+    color: white;
+    padding: 10px 18px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
